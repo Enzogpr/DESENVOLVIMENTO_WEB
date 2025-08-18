@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pokemon 0065 - Alakazam</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>POKEPEDIA</h1>
+    <nav>
+      <ul style="display: flex; list-style: none; padding: 0; justify-content: center;">
+        <li style="margin-right: 10px;"><a href="#"> POKEDEX </a></li>
+        <li style="margin-right: 10px;"><a href="#"> ANTERIOR </a></li>
+        <li style="margin-right: 10px;"><a href="index.html"> PROXIMO </a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <aside>
+      <h3>Posts Relacionados</h3>
+      <ul>
+        <li style="margin-right: 10px;"><a href="#"> CARTAS </a></li>
+        <li style="margin-right: 10px;"><a href="#"> MEGA EVOLUÇÃO</a></li>
+        <li style="margin-right: 10px;"><a href="#"> NO ANIME </a></li>
+      </ul>
+    </aside>
+    <article>
+      <h2>Alakazam Nº 0065</h2>
+      <time datetime="2025-08-01">03 de agosto de 2025</time>
+      <figure class="imagem">
+
+  <img id="imagemPokemon"  src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/064.png" onclick="alternarImagem()" alt="Kadabra"  alt="img1" style="width:80%">
+  <figcaption id="descricaoImagem">Kadabra forma base.</figcaption>
+
+</figure>
+
+<p class="conteudo">
+Usando seu poder psíquico, Kadabra levita enquanto dorme. <br>
+Ele usa sua cauda elástica como travesseiro.
+</p>
+
+<p class="tipo"><strong>Tipo:</strong> <span class="tipo_tipo">Psíquico</span></p>
+
+<p class = "fraquezas"><strong>Fraquezas:</strong>
+  <span class="bug">Bug</span>
+  <span class="ghost">Ghost</span>
+  <span class="dark">Dark</span>
+</p>
+
+    </figure>
+        </article>
+    
+  </main>
+  <footer>
+    <p>&copy; 2025 - Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+  function alternarImagem() {
+    const descricao = document.getElementById("descricaoImagem");
+    const img = document.getElementById("imagemPokemon");
+    if (img.src.includes("https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/064.png")) {
+      img.src = "image/estatistica_kadabra.png";
+      img.alt = "estatistica_kadabra";
+       descricao.textContent = "Estatisticas Kadabra";
+    } else {
+      img.src = "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/064.png";
+      img.alt = "kadabra forma base";
+      descricao.textContent = "Kadabra forma base";
+    }
+  }
+</script>
+
+</body>
+
+</html>
