@@ -1,7 +1,7 @@
 import logo from "../assets/logo.svg";
 import Menu from "../assets/Menu.svg";
 import Close from "../assets/Close.svg";
-import "../styles/header.css";
+import "../styles/headers.css";
 import "../styles/utility.css";
 import "../styles/Home.css";
 import { useState, useEffect } from "react";
