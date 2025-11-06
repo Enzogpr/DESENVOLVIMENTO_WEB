@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 import Menu from "../assets/Menu.svg";
 import Close from "../assets/Close.svg";
 import "../styles/headers.css";
-import "../styles/utility.css";
+import "../styles/utilitys.css";
 import "../styles/Home.css";
 import { useState, useEffect } from "react";
 import Button from "../components/Button";
