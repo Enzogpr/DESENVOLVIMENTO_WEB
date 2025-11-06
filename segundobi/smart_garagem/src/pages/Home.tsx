@@ -20,6 +20,7 @@ import "../styles/testimonials.css"
 import Check from "../assets/Check.png"
 import "../styles/pricing.css"
 import "../styles/contact.css"
+//caminho corrigido
 export default function Home() {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
 
