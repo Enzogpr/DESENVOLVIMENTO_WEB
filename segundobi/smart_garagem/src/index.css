@@ -14,12 +14,15 @@
 
 :root {
     --bg-color: #FFF;
-    --text-color: #252B42;
-    --second-text-color: #737373;
+    
+    --text-color: #001C98; 
+    --second-text-color: #ffffff; 
     --light-text-color: #FFF;
-    --light-gray: #F8F8F8;
-    --primary-color: #23A6F0;
-    --secondary-color: #B2E3FF;
+    --light-gray: #F1F5F9; 
+    --primary-color: #001C98; 
+     --terceiro-text-color: #aac6fd;
+
+    --secondary-color: #548DFE; 
 
         --ff-sans: "Montserrat", system-ui, sans-serif;
     --fw-base: 400;
@@ -39,8 +42,6 @@
     --px-lg: 1.5rem;
 }
 
-
-
 html {
     font-family: var(--ff-sans);
     font-weight: var(--fw-base);
@@ -55,8 +56,6 @@ body {
     background-color: var(--bg-color);
     overflow-x: hidden;
 }
-
-
 
 h1, h2, h3 {
     line-height: 1.2;
@@ -77,16 +76,15 @@ h3 {
     font-size: var(--fs-lg);
 }
 
-
 a {
     text-decoration: none;
-    color: var(--second-text-color);
+    color: var(--primary-color);
     font-weight: var(--fw-bold);
     font-size: var(--fs-sm);
 }
 
 a:hover {
-    color: var(--primary-color);
+    color: var( --terceiro-text-color);
 }
 
 img {

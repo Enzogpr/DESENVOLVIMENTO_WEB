@@ -14,7 +14,7 @@
 }
 
 #solution p {
-    color: var(--second-text-color);
+    color: var(--secondary-color);
 }
 
 #solution strong {

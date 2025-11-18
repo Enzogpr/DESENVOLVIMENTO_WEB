@@ -13,7 +13,7 @@
 }
 
 #hero p {
-    color: var(--second-text-color);
+    color: var(---light-gray);
 }
 
 #hero .content {
